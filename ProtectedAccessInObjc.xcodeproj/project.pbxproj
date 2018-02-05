@@ -14,6 +14,8 @@
 		CA8349EE2028A54D003055B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8349EC2028A54D003055B3 /* LaunchScreen.storyboard */; };
 		CA8349F12028A54D003055B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8349F02028A54D003055B3 /* main.m */; };
 		CA8349FB2028A54D003055B3 /* ProtectedAccessInObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8349FA2028A54D003055B3 /* ProtectedAccessInObjcTests.m */; };
+		CA834A072028A586003055B3 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = CA834A062028A586003055B3 /* Animal.m */; };
+		CA834A0A2028A591003055B3 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CA834A092028A591003055B3 /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		CA8349F62028A54D003055B3 /* ProtectedAccessInObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtectedAccessInObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8349FA2028A54D003055B3 /* ProtectedAccessInObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtectedAccessInObjcTests.m; sourceTree = "<group>"; };
 		CA8349FC2028A54D003055B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA834A052028A586003055B3 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		CA834A062028A586003055B3 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		CA834A082028A591003055B3 /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		CA834A092028A591003055B3 /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		CA834A0B2028AB12003055B3 /* AnimalSubclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalSubclass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,11 @@
 				CA8349E22028A54D003055B3 /* AppDelegate.m */,
 				CA8349E42028A54D003055B3 /* ViewController.h */,
 				CA8349E52028A54D003055B3 /* ViewController.m */,
+				CA834A052028A586003055B3 /* Animal.h */,
+				CA834A062028A586003055B3 /* Animal.m */,
+				CA834A0B2028AB12003055B3 /* AnimalSubclass.h */,
+				CA834A082028A591003055B3 /* Cat.h */,
+				CA834A092028A591003055B3 /* Cat.m */,
 				CA8349E72028A54D003055B3 /* Main.storyboard */,
 				CA8349EA2028A54D003055B3 /* Assets.xcassets */,
 				CA8349EC2028A54D003055B3 /* LaunchScreen.storyboard */,
@@ -206,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8349E62028A54D003055B3 /* ViewController.m in Sources */,
+				CA834A072028A586003055B3 /* Animal.m in Sources */,
 				CA8349F12028A54D003055B3 /* main.m in Sources */,
 				CA8349E32028A54D003055B3 /* AppDelegate.m in Sources */,
+				CA834A0A2028A591003055B3 /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
